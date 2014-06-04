@@ -1,0 +1,14 @@
+D:\WORK\CS4\cube\process\bin\Debug\process.exe.config
+D:\WORK\CS4\cube\process\bin\Debug\process.exe
+D:\WORK\CS4\cube\process\bin\Debug\process.pdb
+D:\WORK\CS4\cube\process\bin\Debug\Microsoft.AnalysisServices.dll
+D:\WORK\CS4\cube\process\bin\Debug\Microsoft.AnalysisServices.XMLA.dll
+D:\WORK\CS4\cube\process\obj\Debug\ResolveAssemblyReference.cache
+D:\WORK\CS4\cube\process\obj\Debug\process.exe
+D:\WORK\CS4\cube\process\obj\Debug\process.pdb
+D:\Git_new\Projects\process\process\obj\Debug\ResolveAssemblyReference.cache
+D:\Git_new\Projects\process\process\obj\Debug\process.exe
+D:\Git_new\Projects\process\process\obj\Debug\process.pdb
+D:\Git_new\Projects\process\process\bin\Debug\process.exe.config
+D:\Git_new\Projects\process\process\bin\Debug\process.exe
+D:\Git_new\Projects\process\process\bin\Debug\process.pdb

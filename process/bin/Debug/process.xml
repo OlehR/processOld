@@ -1,0 +1,28 @@
+<Config>
+ <Server>srv-olap</Server>
+ <Database>DW_OLAP</Database>
+ <XMLA maxParallel="6">true</XMLA>
+ <DefaultStep>0</DefaultStep>
+ <ConectSQL>Provider=OraOLEDB.Oracle.1;Data Source=mer;Persist Security Info=True;user id=c;password=c</ConectSQL>
+ <Metod>Fast</Metod> <!-- default:Fast (Fact,Full,Normal)  -->
+ <KeyErrorLogPath>d:\process\log</KeyErrorLogPath> <!-- delault - program_path\LOG ; path -server\path -->
+ <ServicesOlap>MSSQLServerOLAPService</ServicesOlap> 
+ <Step0>
+  <Time Start="7" End="24">true</Time>
+  <ProcessDimension>UPDATE</ProcessDimension> <!-- default:UPDATE (UPDATE,FULL) --> 
+  <RestartServicesOlap>1</RestartServicesOlap> <!-- default:0 - no restart,1 before,2-after,3 before and after  -->
+ </Step0>
+
+ <Step1>
+  <PrepareSQL> begin null end;  </PrepareSQL>
+ </Step1>
+
+ <Step2>
+   <WaitSQL>SELECT * FROM dw.v_statecons</WaitSQL> 
+ </Step2>
+ 
+ <Step3>
+   <WaitSQL>SELECT * FROM dw.v_state_MIN_MAX</WaitSQL> 
+ </Step3>
+
+</Config>
