@@ -3,7 +3,7 @@
  <Database>DW_OLAP</Database>
  <XMLA maxParallel="6">true</XMLA>
  <DefaultStep>0</DefaultStep>
- <ConectSQL>Provider=OraOLEDB.Oracle.1;Data Source=mer;Persist Security Info=True;user id=c;password=c</ConectSQL>
+ <ConectSQL>Provider=OraOLEDB.Oracle.1;Data Source=mer;Persist Security Info=True;user id=*;password=*</ConectSQL>
  <Metod>Fast</Metod> <!-- default:Fast (Fact,Full,Normal)  -->
  <KeyErrorLogPath>d:\process\log</KeyErrorLogPath> <!-- delault - program_path\LOG ; path -server\path -->
  <ServicesOlap>MSSQLServerOLAPService</ServicesOlap> 
